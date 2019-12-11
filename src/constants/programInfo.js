@@ -45,14 +45,14 @@ export const schoolInfo = { // term details section
 }
 
 export const faq = { // faq section
-    costOfLiving: !false, // true if at least one program has cost of living included
+    costOfLiving: false, // true if at least one program has cost of living included
     costOfLivingPrograms: '', // leave as empty string is cost of living availability is the same across all programs
-    multCostOfLivingPrograms: !true, // true if costOfLivingPrograms string has more than one program
+    multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
     interestOnly: true, // true if interest-only payments are an option
-    immediateRepayment: !true, // true if immediate repayment is an option
+    immediateRepayment: false, // true if immediate repayment is an option
     multipleLoanLengths: true, // true if 36 and 60 month options are both available
-    multipleLoanTypes: !true, // true if both IR and IO are available
-    multiPrograms: !true, // only true if there are multiple programs
+    multipleLoanTypes: false, // true if both IR and IO are available
+    multiPrograms: false, // only true if there are multiple programs
     onlinePrograms: false, // true if at least one program is remote/online
     schoolHQState: 'WA',
     origFee: 0.04,
@@ -70,8 +70,8 @@ export const faq = { // faq section
     loanRange: [
         {
             programName: "the Software Developer Bootcamp",
-            maxAmount: "$12,000",
-            col: true,
+            maxAmount: "$19,980",
+            col: false,
             colAmount: "$7,000"
         }
     ]
@@ -131,7 +131,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "Software Developer Bootcamp",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKTA",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 19000,
+            maxLoanAmt: 19980,
             loanTerm36: true,
             loanTerm60: true,
             '0': { // interest-only 
@@ -149,7 +149,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
           {
             location: "Metro 1",
             loanInfo: { // // match loanInfo to Program 1 above
-              maxLoanAmt: 19000,
+              maxLoanAmt: 19980,
               loanTerm36: true,
               loanTerm60: true,
               '0': { 
@@ -317,7 +317,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $12,000 for tuition & $7,000 for cost of living."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $19,980 for tuition at The Tech Academy."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
