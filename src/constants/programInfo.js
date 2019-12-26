@@ -129,7 +129,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
     {
         name: "Software Developer Bootcamp",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKTA",
+        url: "https://my.skills.fund/application?lenderCode=SKTA",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 19980,
             loanTerm36: true,
@@ -192,7 +192,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Program 2",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=LENDERCODE2",
+        url: "https://my.skills.fund/application?lenderCode=LENDERCODE2",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 10995,
             loanTerm36: true,
@@ -241,7 +241,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Program 3",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=LENDERCODE3",
+        url: "https://my.skills.fund/application?lenderCode=LENDERCODE3",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 15995,
             loanTerm36: true,
